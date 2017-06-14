@@ -17,3 +17,7 @@ typings/
 
 # Optional eslint cache
 .eslintcache
+
+# VScode
+.vscode/
+.vscode-upload.json

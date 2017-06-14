@@ -95,5 +95,5 @@ gulp.task("watch", ["default"], function () {
 //* DEFAULT
 //******************************************************************************
 gulp.task("default", function (cb) {
-    runSequence("lint", "build-test", "build", cb);
+    runSequence("build-test", "build", cb);
 });
